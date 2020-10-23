@@ -708,35 +708,52 @@
 					outline: 0;
 				}
 
+
+
+
 /*********************************************************************************/
-/* Intro                                                                         */
+/* Home                                                                         */
 /*********************************************************************************/
 
-	#intro {
-		background: url('images/overlay.png'), url('../images/intro.jpg');
+	#home {
+		background: url('images/overlay.png'), url('../images/starswithzkbt.jpg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
 	}
 
+
+
+
 /*********************************************************************************/
-/* One                                                                           */
+/* Research                                                                      */
 /*********************************************************************************/
 
-	#one {
-		background: url('images/overlay.png'), url('../images/one.jpg');
+	#research {
+		background: url('images/overlay.png'), url('../images/gj1132b.jpg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
 
 /*********************************************************************************/
-/* Two                                                                           */
+/* Teaching                                                                      */
 /*********************************************************************************/
 
-	#two {
-		background: url('images/overlay.png'), url('../images/two.jpg');
+	#work {
+		background: url('images/overlay.png'), url('../images/starchart.jpg');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
+/*********************************************************************************/
+/* CV                                                                      */
+/*********************************************************************************/
+
+	#cv {
+		background: url('images/overlay.png'), url('../images/wildgj1214b.jpg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -746,13 +763,13 @@
 /* Work                                                                          */
 /*********************************************************************************/
 
-	#work {
+	#portfolio {
 	}
 	
-		#work .row.images {
+		#portfolio .row.images {
 		}
 	
-			#work .row.images .image {
+			#portfolio .row.images .image {
 				position: relative;
 				top: 0;
 				left: 0;
@@ -771,26 +788,26 @@
 				transform: translateZ(0);
 			}
 		
-			#work .row.images.inactive {
+			#portfolio .row.images.inactive {
 			}
 
-				#work .row.images.inactive .image {
+				#portfolio .row.images.inactive .image {
 					opacity: 0;
 				}
 			
-				#work .row.images.inactive .image.from-left {
+				#portfolio .row.images.inactive .image.from-left {
 					left: -14em;
 				}
 			
-				#work .row.images.inactive .image.from-right {
+				#portfolio .row.images.inactive .image.from-right {
 					left: 14em;
 				}
 			
-				#work .row.images.inactive .image.from-top {
+				#portfolio .row.images.inactive .image.from-top {
 					top: -7em;
 				}
 			
-				#work .row.images.inactive .image.from-bottom {
+				#portfolio .row.images.inactive .image.from-bottom {
 					top: 7em;
 				}
 			
@@ -799,6 +816,10 @@
 /*********************************************************************************/
 
 	#contact {
+		background: url('images/overlay.png'), url('../images/sunspots.jpg');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
 		padding-bottom: 0;
 		overflow: hidden;
 	}
