@@ -1,2 +1,2 @@
 # My Website
-shubhonkar_paramanick.github.io
+shubhonkar-paramanick.github.io/shubhonkar_paramanick.github.io/
