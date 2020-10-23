@@ -112,7 +112,7 @@
 				useBodyOverflow: false,
 				usePopupEasyClose: false,
 				overlayColor: '#1f2328',
-				overlayOpacity: 0.65,
+				overlayOpacity: 1.0,
 				usePopupDefaultStyling: false,
 				usePopupCaption: true,
 				popupLoaderText: '',
